@@ -1,0 +1,319 @@
+on 3.8.5 (tags/v3.8.5:580fbb0, Jul 20 2020, 15:43:08) [MSC v.1926 32 bit (Intel)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> type(x)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'x' is not defined
+>>> x=4
+>>> type(x)
+<class 'int'>
+>>> type(4)
+<class 'int'>
+>>> import math
+>>> math.sqrt(4)
+2.0
+>>> a=10
+>>> b=5
+>>> c=20
+>>> if a>b and a>c
+  File "<stdin>", line 1
+    if a>b and a>c
+                 ^
+SyntaxError: invalid syntax
+>>> if a>b and a>c :
+... print("a is greater"); ef
+  File "<stdin>", line 2
+    print("a is greater"); ef
+    ^
+IndentationError: expected an indented block
+>>> if a>b and a>c :
+... print ("a is greater");
+  File "<stdin>", line 2
+    print ("a is greater");
+    ^
+IndentationError: expected an indented block
+>>> if a>b and a>c :
+... print ("a is greater") elseif b>c print("b is greater") else("c is greater");
+  File "<stdin>", line 2
+    print ("a is greater") elseif b>c print("b is greater") else("c is greater");
+    ^
+IndentationError: expected an indented block
+>>> print("hello")
+hello
+>>> a=10 b=15 c=5 if a>b and a>c :
+  File "<stdin>", line 1
+    a=10 b=15 c=5 if a>b and a>c :
+         ^
+SyntaxError: invalid syntax
+>>> a=10 ;b=15; c=5; if a>b and a>c :
+  File "<stdin>", line 1
+    a=10 ;b=15; c=5; if a>b and a>c :
+                     ^
+SyntaxError: invalid syntax
+>>> print (c)
+20
+>>> print (c)
+20
+>>> if
+  File "<stdin>", line 1
+    if
+      ^
+SyntaxError: invalid syntax
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>> if a>b
+  File "<stdin>", line 1
+    if a>b
+         ^
+SyntaxError: invalid syntax
+>>> if a>b:
+... print("a is bigger" ) else: print("b is bigger")
+  File "<stdin>", line 2
+    print("a is bigger" ) else: print("b is bigger")
+    ^
+IndentationError: expected an indented block
+>>> if a>b : print("a is bigger" ) else : print("b is bigger")
+  File "<stdin>", line 1
+    if a>b : print("a is bigger" ) else : print("b is bigger")
+                                   ^
+SyntaxError: invalid syntax
+>>> a=5 if a%2==0 : print ("a is even") else : print("a is odd")
+  File "<stdin>", line 1
+    a=5 if a%2==0 : print ("a is even") else : print("a is odd")
+                  ^
+SyntaxError: invalid syntax
+>>> a=5 if a%2==0: print ("a is even") else : print("a is odd")
+  File "<stdin>", line 1
+    a=5 if a%2==0: print ("a is even") else : print("a is odd")
+                 ^
+SyntaxError: invalid syntax
+>>> a=5 if (a%2==0): print ("a is even") else : print("a is odd")
+  File "<stdin>", line 1
+    a=5 if (a%2==0): print ("a is even") else : print("a is odd")
+                   ^
+SyntaxError: invalid syntax
+>>> a=5 ifa%2==0 : print ("a is even") else : print("a is odd")
+  File "<stdin>", line 1
+    a=5 ifa%2==0 : print ("a is even") else : print("a is odd")
+        ^
+SyntaxError: invalid syntax
+>>> a=5 if a%2==0 : print ("a is even") else : print("a is odd")
+  File "<stdin>", line 1
+    a=5 if a%2==0 : print ("a is even") else : print("a is odd")
+                  ^
+SyntaxError: invalid syntax
+>>> a=5 if (a%2==0) : print ("a is even") else : print("a is odd")
+  File "<stdin>", line 1
+    a=5 if (a%2==0) : print ("a is even") else : print("a is odd")
+                    ^
+SyntaxError: invalid syntax
+>>> a=5 if(a%2==0) : print ("a is even") else : print("a is odd")
+  File "<stdin>", line 1
+    a=5 if(a%2==0) : print ("a is even") else : print("a is odd")
+                   ^
+SyntaxError: invalid syntax
+>>> a=5 if(a%2==0): print ("a is even") else : print("a is odd")
+  File "<stdin>", line 1
+    a=5 if(a%2==0): print ("a is even") else : print("a is odd")
+                  ^
+SyntaxError: invalid syntax
+>>> a=5
+>>> if a%2==0 :
+...   print("a is bigger")
+... else:
+...   print("a is odd")
+...
+a is odd
+>>> if a>b and a>c:
+...  print ("a is bigger")
+... elseif b>c:
+  File "<stdin>", line 3
+    elseif b>c:
+    ^
+SyntaxError: invalid syntax
+>>> if a>b and a>c:
+...  print ("a is bigger")
+... else if b>c:
+  File "<stdin>", line 3
+    else if b>c:
+         ^
+SyntaxError: invalid syntax
+>>> i = 1
+>>> while i<=10:
+...     print(2*i)
+...     i = i+1*
+  File "<stdin>", line 3
+    i = i+1*
+           ^
+SyntaxError: invalid syntax
+>>> while i<=10:
+...     print(2*i)
+...     i = i+1
+...
+2
+4
+6
+8
+10
+12
+14
+16
+18
+20
+>>> for i in range(1,10):
+... print(2*i)
+  File "<stdin>", line 2
+    print(2*i)
+    ^
+IndentationError: expected an indented block
+>>> for i in range(1,10):
+...     print(2*i)
+...
+2
+4
+6
+8
+10
+12
+14
+16
+18
+>>> for i in range(1,20):
+...     print(2*i)
+...
+2
+4
+6
+8
+10
+12
+14
+16
+18
+20
+22
+24
+26
+28
+30
+32
+34
+36
+38
+>>> if a>b and a>c:
+...     print("a is greater")
+...     elseif b>c:
+  File "<stdin>", line 3
+    elseif b>c:
+           ^
+SyntaxError: invalid syntax
+>>> if a>b and a>c:
+...     print("a is greater")
+...     else if b>c:
+  File "<stdin>", line 3
+    else if b>c:
+    ^
+SyntaxError: invalid syntax
+>>> if a>b and a>c:
+...     print("a is greater")
+... elseif b>c:
+  File "<stdin>", line 3
+    elseif b>c:
+    ^
+SyntaxError: invalid syntax
+>>> if a>b and a>c:
+...     print("a is greater")
+...  elseif b>c:
+  File "<stdin>", line 3
+    elseif b>c:
+              ^
+IndentationError: unindent does not match any outer indentation level
+>>> if a>b and a>c:
+...     print("a is greater")
+...  elseif b>c
+  File "<stdin>", line 3
+    elseif b>c
+             ^
+IndentationError: unindent does not match any outer indentation level
+>>> if a>b and a>c:
+...     print("a is greater")
+... elseif b>c
+  File "<stdin>", line 3
+    elseif b>c
+    ^
+SyntaxError: invalid syntax
+>>> if a>b and a>c:
+...     print("a is greater")
+... elif b>c:
+...     print("b ic greater");
+... else:
+...     print("c is greater")
+...
+c is greater
+>>> n=7
+>>> ans =1
+>>> for i in range(1,n+1):
+...     ans *=i
+... print(ans)
+  File "<stdin>", line 3
+    print(ans)
+    ^
+SyntaxError: invalid syntax
+>>> n=7
+>>> ans =1
+>>> for i in range(1,n+1):
+...     ans *=i
+...     print(ans)
+...
+1
+2
+6
+24
+120
+720
+5040
+>>> n=7
+>>> ans =1
+>>> for i in range(1,n+1):
+...     ans *=i
+...
+>>> print(ans)
+5040
+>>>

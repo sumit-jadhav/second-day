@@ -1,0 +1,174 @@
+#list
+
+#append
+vegetable=['corn','tomato','broccoli']
+print(vegetable)
+vegetable.append('cucumber')
+print(vegetable)
+
+#extend
+color=['pink','red','orange']
+color2=['blue','yellow']
+color.extend(color2)
+print(color)
+
+#insert
+name=['rita','pinky','babita']
+name.insert(1,'mini')
+print(name)
+
+#remove
+roll=[0,1,2,3,4,5,6]
+roll.remove(3)
+print(roll)
+
+#count
+place=['a','b','c','d','b']
+value=place.count('b')
+print(place)
+print(value)
+
+#index
+roll=[3,4,5,6]
+name= roll.index(3)
+print(name)
+
+
+
+#SET
+
+#set of vowels
+vowels={'a','e','i','o','u'}
+print('vowels(before clear):',vowels)
+
+vowels.clear()
+print('vowels(after clear):',vowels)
+
+vowels={'a','e','o','u'}
+
+#adding
+vowels.add('i')
+print('vowels are:', vowels)
+
+#adding again
+vowels.add('i')
+print('vowels are:', vowels)
+
+#lang set
+language={'english','french','german'}
+
+language.remove('german')
+print('updated languate set',language)
+
+A={'a','b','c','d'}
+B={'c','f','g'}
+
+#A-B
+print(A.difference(B))
+#B-A
+print(B.difference(A))
+
+A={100,7,8}
+B={200,4,5}
+C={300,2,3,7}
+D={100,200,300}
+
+print(A&D)
+print(A&C)
+
+print(A&B&C&D)
+
+A={2,3,5,4}
+B={2,5,100}
+C={2,3,8,9,10}
+
+print(B.intersection(A))
+print(B.intersection(C))
+print(A.intersection(C))
+print(C.intersection(A,B))
+
+A={'a','c','d'}
+B={'c','d','2',3}
+C={1,2,3}
+
+print('AUB =',A|B)
+print('BUC =',B|C)
+print('AUBUC =',A|B|C)
+
+print('AUB=',A.union(B))
+print('BUC=',B.union(C))
+print('AUBUC =',A.union(B,C))
+print('A.union()=',A.union())
+
+#recursion
+def fibo(n):
+    if(n==0 or n==1):
+        return 1
+    else:
+        return fibo(n-1)+fibo(n-2)
+
+    print(fibo(5))
+
+#chatbot
+
+import random
+greeting=['hola','hello','hi','Hi','hey']
+random_greeting=random.choice(greeting)
+question=['how are ypu ?' ,'how you doing?']
+responses=['okay','i am fine']
+random_response=random.choice(responses)
+while True:
+    userInput=input(">>>")
+    if userInput in greeting:
+        print(random_greeting)
+    elif userInput in question:
+        print(random_response)
+    else:
+        print("i did not understand what u said")
+
+
+*********************************************************
+o/p
+
+
+C:\Users\DELL\PycharmProjects\pythonProject\venv\Scripts\python.exe "C:/Users/DELL/PycharmProjects/pythonProject/third practical.py"
+['corn', 'tomato', 'broccoli']
+['corn', 'tomato', 'broccoli', 'cucumber']
+['pink', 'red', 'orange', 'blue', 'yellow']
+['rita', 'mini', 'pinky', 'babita']
+[0, 1, 2, 4, 5, 6]
+['a', 'b', 'c', 'd', 'b']
+2
+0
+vowels(before clear): {'e', 'o', 'a', 'i', 'u'}
+vowels(after clear): set()
+vowels are: {'e', 'o', 'a', 'i', 'u'}
+vowels are: {'e', 'o', 'a', 'i', 'u'}
+updated languate set {'english', 'french'}
+{'a', 'b', 'd'}
+{'g', 'f'}
+{100}
+{7}
+set()
+{2, 5}
+{2}
+{2, 3}
+{2}
+AUB = {3, 'c', 'd', '2', 'a'}
+BUC = {1, 2, 3, 'c', 'd', '2'}
+AUBUC = {1, 2, 3, 'c', 'd', '2', 'a'}
+AUB= {3, 'c', 'd', '2', 'a'}
+BUC= {1, 2, 3, 'c', 'd', '2'}
+AUBUC = {1, 2, 3, 'c', 'd', '2', 'a'}
+A.union()= {'a', 'c', 'd'}
+>>>hi
+hi
+>>>hola
+hi
+>>>Hi
+hi
+>>>how are ypu
+i did not understand what u said
+>>>how you doing?
+okay
+>>>
